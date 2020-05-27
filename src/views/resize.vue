@@ -1,5 +1,5 @@
 <template>
-  <div class="resize-event">
+  <div class="resize-event pt-10">
     <p>没经过任何处理的resize事件</p>
     <div class="counter-box">
       <span>{{count}}</span>

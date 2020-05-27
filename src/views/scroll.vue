@@ -1,8 +1,8 @@
 <template>
-  <div class="scroll-event">
-    <p>没经过任何处理的scroll事件</p>
+  <div class="scroll-event pt-10">
+    <p class="pb-4">没经过任何处理的scroll事件</p>
     <button @click="reset"
-      class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">reset</button>
+      class="bg-blue-500 hover:bg-blue-600 text-white font-200 py-1 px-4 rounded-sm">reset</button>
     <div class="counter-box">
       <span>{{count}}</span>
     </div>

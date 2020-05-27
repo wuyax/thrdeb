@@ -4,6 +4,7 @@
       <router-link to="/scroll">Scroll</router-link> |
       <router-link to="/resize">Resize</router-link> |
       <router-link to="/params">Params</router-link> |
+      <router-link to="/pfc">Pfc</router-link> |
     </div>
     <router-view/>
   </div>

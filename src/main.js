@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './assets/css/index.scss'
+import './assets/js/vue-pfc'
 
 Vue.config.productionTip = false
 

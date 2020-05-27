@@ -1,8 +1,8 @@
 <template>
-  <div class="params">
+  <div class="pt-10">
     <p>高阶使用（参数传递）</p>
     <button @click="passParam($event)"
-      class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">传参</button>
+      class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-1 px-4 rounded">传参</button>
   </div>
 </template>
 <script>

@@ -25,6 +25,13 @@ Vue.use(VueRouter)
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/params.vue')
     }
+  },
+  {
+    path: '/pfc',
+    name: 'pfc',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/pfc.vue')
+    }
   }
 ]
 
