@@ -32,6 +32,13 @@ Vue.use(VueRouter)
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/pfc.vue')
     }
+  },
+  {
+    path: '/mask',
+    name: 'mask',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/imgmask.vue')
+    }
   }
 ]
 
