@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+      <router-link to="/click">Click</router-link> |
       <router-link to="/scroll">Scroll</router-link> |
       <router-link to="/resize">Resize</router-link> |
       <router-link to="/params">Params</router-link> |
