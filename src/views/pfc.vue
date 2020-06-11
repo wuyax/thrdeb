@@ -3,7 +3,7 @@
     <button class="bg-blue-500 px-4 py-1 rounded-sm active:bg-blue-600"
       @click="clickMe">click me native</button>
     <button class="bg-blue-500 px-4 py-1 rounded-sm active:bg-blue-600 ml-10"
-      v-pfc='clickMe'>click me debounced</button>
+      v-pfc='{callback:clickMe, wait: 1000}'>click me debounced</button>
     <div class="py-4 text-6xl text-gray-200"
       @click="reset">{{times}}</div>
   </div>

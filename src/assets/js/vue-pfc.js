@@ -7,6 +7,7 @@ import { debounce } from 'lodash-es'
  */
 const callback = (binding = {}) => {
   const { modifiers, value } = binding
+  console.log(value)
   return debounce(
     e => {
       if (modifiers.stop) {
